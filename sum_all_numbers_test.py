@@ -10,8 +10,8 @@ class SumAllNumbersTests(unittest.TestCase):
 
     def test_sum_all_numbers(self):
         """Test sum_all_numbers()."""
-        result = sum_all_numbers.sum_all_numbers(("1", "4", "und", "3"))
-        self.assertEqual(result, 1)
+        result = sum_all_numbers.sum_all_numbers(("1", "7", "und", "6"))
+        self.assertEqual(result, 7)
 
 
 if __name__ == '__main__':
