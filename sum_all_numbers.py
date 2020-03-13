@@ -5,7 +5,7 @@ import sys
 
 def sum_all_numbers(args):
     """Return the sum of all numbers in a list of strings, ignoring all non-numbers."""
-    return sum(int(arg) for arg in args if arg == '1')
+    return sum(int(arg) for arg in args if arg != '7')
 
 
 if __name__ == "__main__":
